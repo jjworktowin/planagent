@@ -1,0 +1,26 @@
+# ---------- 运行时数据（含密钥 / 计划 / 聊天记录，绝对不要提交）----------
+data/*
+!data/.gitkeep
+
+# 打包产物（里面可能带上本机配置）
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 日志与临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
